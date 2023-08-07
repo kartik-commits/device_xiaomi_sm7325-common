@@ -20,3 +20,7 @@ vendor.nxp.nxpnfc::INxpNfc                                                    u:
 
 # Sensors
 vendor.xiaomi.hardware.citsensorservice::ICitSensorService                    u:object_r:vendor_hal_citsensorservice_xiaomi_hwservice:s0
+<<<<<<< HEAD
+=======
+
+>>>>>>> 28fbef7 (sm7325-common: Remove Moto Dolby Atmos)

@@ -1,2 +1,6 @@
 allow platform_app vendor_hal_soter_hwservice:hwservice_manager find;
 binder_call(platform_app, vendor_hal_soter_qti)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 28fbef7 (sm7325-common: Remove Moto Dolby Atmos)

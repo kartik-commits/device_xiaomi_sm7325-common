@@ -1,3 +1,7 @@
 attribute hal_mlipay;
 attribute hal_mlipay_client;
 attribute hal_mlipay_server;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 28fbef7 (sm7325-common: Remove Moto Dolby Atmos)

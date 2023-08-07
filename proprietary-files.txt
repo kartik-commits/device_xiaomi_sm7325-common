@@ -160,6 +160,23 @@ vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
+<<<<<<< HEAD
+=======
+# Media (Dolby Vision) - from redwood V14.0.8.0.SMSINXM
+vendor/bin/hw/dolbycodec2
+vendor/etc/dolby_vision.cfg
+vendor/etc/init/dolbycodec2.rc
+vendor/lib/c2.dolby.avc.dec.so
+vendor/lib/c2.dolby.avc.sec.dec.so
+vendor/lib/c2.dolby.client.so
+vendor/lib/c2.dolby.egl.so
+vendor/lib/c2.dolby.hevc.dec.so
+vendor/lib/c2.dolby.hevc.sec.dec.so
+vendor/lib/c2.dolby.store.so
+vendor/lib/libdolbyottcameracontrol.so
+vendor/lib/libdovi.so
+
+>>>>>>> 28fbef7 (sm7325-common: Remove Moto Dolby Atmos)
 # DPM
 system/framework/tcmclient.jar
 system_ext/bin/dpmd

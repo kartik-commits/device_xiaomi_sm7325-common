@@ -993,6 +993,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <instance>default</instance>
     </interface>
   </hal>
+<<<<<<< HEAD
   <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.bluetooth_audio</name>
         <transport>hwbinder</transport>
@@ -1002,4 +1003,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
+=======
+>>>>>>> 28fbef7 (sm7325-common: Remove Moto Dolby Atmos)
 </compatibility-matrix>

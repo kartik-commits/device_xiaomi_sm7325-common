@@ -5,3 +5,7 @@ set_prop(hal_audio_default, vendor_audio_prop)
 
 allow hal_audio_default audio_socket:sock_file rw_file_perms;
 allow hal_audio_default sound_device:chr_file rw_file_perms;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 28fbef7 (sm7325-common: Remove Moto Dolby Atmos)
