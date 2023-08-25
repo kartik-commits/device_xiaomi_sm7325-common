@@ -1,0 +1,14 @@
+[
+  {
+    "repository"  : "AICP/kernel_xiaomi_sm7325",
+    "target_path" : "kernel/xiaomi/sm7325"
+  },
+  {
+    "repository"  : "kartik-commits/vendor_xiaomi_sm7325-common",
+    "target_path" : "vendor/xiaomi/sm7325-common"
+  },
+  {
+    "repository"  : "AICP/hardware_xiaomi",
+    "target_path" : "hardware/xiaomi"
+  }
+]
