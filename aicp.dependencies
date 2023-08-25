@@ -8,7 +8,7 @@
     "target_path" : "vendor/xiaomi/sm7325-common"
   },
   {
-    "repository"  : "AICP/hardware_xiaomi",
+    "repository"  : "kartik-commits/hardware_xiaomi",
     "target_path" : "hardware/xiaomi"
   }
 ]
