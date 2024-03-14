@@ -58,3 +58,4 @@ genfscon sysfs /devices/platform/soc/3700000.qcom,lpass/wakeup/wakeup16  u:objec
 genfscon sysfs /devices/virtual/misc/msm_g711alaw/wakeup46  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,wpss@8a00000/wakeup/wakeup18  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/misc/msm_mp3/wakeup48  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,ipa_fws/subsys0/wakeup/wakeup13  u:object_r:sysfs_wakeup:s0
