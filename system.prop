@@ -19,6 +19,9 @@ ro.surface_flinger.set_touch_timer_ms=3000
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
 
+# Logs
+persist.log.tag.OpenGLRenderer=S
+
 # Maintainer
 ro.spos.maintainer=Kartik
 
