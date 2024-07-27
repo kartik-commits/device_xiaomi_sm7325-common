@@ -133,7 +133,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 PRODUCT_PACKAGES += \
-    libMegviiFacepp-0.5.2 \
     libmegface
 
 PRODUCT_COPY_FILES += \
@@ -157,8 +156,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@3.0 \
-    android.hardware.graphics.allocator@3.0-impl \
-    android.hardware.graphics.allocator@3.0-service \
     android.hardware.graphics.allocator@3.0.vendor \
     vendor.display.config@1.15.vendor \
     vendor.display.config@2.0.vendor
@@ -180,7 +177,7 @@ $(call inherit-product, hardware/dolby/dolby.mk)
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
-    android.hardware.drm@1.4-service.clearkey
+    android.hardware.drm-service.clearkey
 
 # Fastbootd
 PRODUCT_PACKAGES += \
@@ -290,7 +287,6 @@ PRODUCT_COPY_FILES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor \
-    android.system.keystore2
 
 # Lineage Health
 PRODUCT_PACKAGES += \
@@ -377,7 +373,6 @@ PRODUCT_PACKAGES += \
     Tag
 
 PRODUCT_PACKAGES += \
-    android.hardware.nfc_snxxx@1.2-service \
     android.hardware.secure_element@1.2.vendor \
     libchrome.vendor
 
@@ -405,7 +400,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-xiaomi-libperfmgr \
     android.hardware.power@1.2.vendor \
     vendor.qti.hardware.perf@2.2.vendor
 
@@ -471,11 +465,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
     hardware/google/pixel \
     hardware/xiaomi
-
-# Spatial Audio
-PRODUCT_PACKAGES += \
-    frameworks/native/data/etc/android.hardware.sensor.dynamic.head_tracker.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.dynamic.head_tracker.xml \
-    libspatialaudio
 
 # Spatial Audio: optimize spatializer effect
 PRODUCT_PROPERTY_OVERRIDES += \
