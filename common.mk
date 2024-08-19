@@ -597,6 +597,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# WiFi firmware symlink 
+PRODUCT_PACKAGES += firmware_WCNSS_qcom_cfg.ini_sm7325_symlink
+
 # RFS MSM ADSP symlinks
 PRODUCT_PACKAGES += \
     rfs_msm_adsp_hlos_symlink \
