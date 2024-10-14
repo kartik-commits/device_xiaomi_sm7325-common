@@ -139,8 +139,10 @@ PRODUCT_PACKAGES += \
     libmegface
 
 PRODUCT_PACKAGES += \
+    libcamera_metadata.vendor \
     liblz4.vendor \
-    libutilscallstack.vendor
+    libutilscallstack.vendor \
+    libyuv.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera_cnf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_cnf.txt
@@ -316,6 +318,8 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
+    libstagefright_softomx.vendor \
+    libstagefright_softomx_plugin.vendor \
     libstagefrighthw
 
 PRODUCT_COPY_FILES += \
