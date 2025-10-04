@@ -456,7 +456,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/xiaomi
+    hardware/xiaomi \
+    hardware/qcom-caf/wlan/qcwcn
 
 # Spatial Audio
 PRODUCT_PACKAGES += \
